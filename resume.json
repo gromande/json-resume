@@ -1,0 +1,259 @@
+{
+  "basics": {
+    "name": "Guillermo Roman",
+    "label": "Electrical Engineer. Software Developer",
+    "picture": "../../assets/picture.png",
+    "phone": "1-773-510-2977",
+    "email": "guillermo.roman.dearagon@gmail.com",
+    "website": "http://guillermo-roman.com",
+    "summary": "**Software Developer with over 5 years of experience specializing in Java, Identity, Access Control, IT and Software Architecture.** Passionate, self-motivated, quick learner, interested in elegant technology that can solve real-world problems. Guillermo loves spending time exploring the world, playing soccer, and having picnics at the lake shore (weather permitting)",
+    "location": {
+      "address": "655 W Irving Park  Rd. Unit# 817",
+      "postalCode": "60613",
+      "city": "Chicago",
+      "countryCode": "US",
+      "region": "IL"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "gromande",
+        "url": "https://github.com/gromande"
+      },
+      {
+        "network": "Twitter",
+        "username": "GuilleRoman",
+        "url": "https://twitter.com/GuilleRoman"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "gromande",
+        "url": "http://stackoverflow.com/users/1311382/guillermo-r"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Indigo Consulting",
+      "position": "I&AM Architect",
+      "website": "http://www.indigoconsulting.com",
+      "startDate": "2011-10-01",
+      "summary": "Worked as an I&AM consultant for various clients designing and implementign authentication and authorization systems, and performing application integration and security engineering on multiple high availability, fault tolerant infrastructures.",
+      "highlights": [
+        "Lead developer for OpenConnect, a mobile I&AM platform that provides SSO multiple mobile and web-based apps. Developed the product in over 1 year and implemented open standards such as OAuth2.0, OpenID Connect, and SAML 2.0",
+        "Main maintainer of the company's SVN repository utilized by 10 developers",
+        "Principal code reviewer",
+        "Provided 4-week training course for new employees",
+        "Main administrator for several Unix and Windows systems"
+      ]
+    },
+    {
+      "company": "Morningstar",
+      "position": "I&AM Software Developer",
+      "website": "http://www.morningstar.com/",
+      "summary": "Desgined and implemented a centralized Universal Identity Management (UIM) system to provide access control, single-sign on, and user self-service features for over 8 million users.",
+      "highlights": [
+        "Developed REST Endpoints that were consumed by an AunglarJS front-end that allowed the company to streamlined the legacy authentication flows",
+        "Automated platform deployment using CI pipeline based on Maven, Stash, Jenkins, RPM, and uDeploy",
+        "Developed several custom authentication modules in Java to enable features such as 2FA, or Remeber Me",
+        "Designed Multi-Factor Authentication Architecture that protected customer against account takeover attacks",
+        "Migrated over 8 million identities in less than 10 hours using a data sycnrhonization pipeline between Microsoft SQL and LDAP"
+      ]
+    },
+    {
+      "company": "Verizon",
+      "position": "Software Developer",
+      "website": "http://www.verizon.com/",
+      "summary": "Designed and implemented Verizon's access management, single-sign-on, and user management systems that provide services to over 60 million customers.",
+      "highlights": [
+        "Integrated Oracle's Real-time Risks Analysis Engine into the companie's authentication flows. The engine detects suspicious login activity and reacts in accordance to the level of risk",
+        "Designed a 2-Factor Authentication solution using OTPs delivered via SMS and/or Email",
+        "Implemented a Mobile I&AM platform that provides SSO between mobile and web apps for 10 million devices",
+        "Developed User Self-Service backend using Spring MVC that runs on three active datacenters"
+      ]
+    },
+    {
+      "company": "Broome Tioga BOCES",
+      "position": "I&AM Architect",
+      "website": "http://www.btboces.org/",
+      "summary": "Designed and implemented an Identity Gateway based on SAML 2.0. The platform provides integration between third party service providers such as Google Apps, or Office 365 and several New York State school districts",
+      "highlights": [
+        "Developed in Java multiple SAML 2.0 plugings to simplify the authentication process for students and teachers",
+        "Implemented in Javascript a district finder page that allowed students to easily access their district's applications"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Illinois Institute of Technology",
+      "area": "Electrical Enginnering",
+      "studyType": "Masters of Science",
+      "startDate": "2010-08-15",
+      "endDate": "2011-07-15",
+      "gpa": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Madrid University of Technology",
+      "area": "Telecommunications Engineering",
+      "studyType": "Bachelors and Masters of Science",
+      "startDate": "2006-09-01",
+      "endDate": "09/01/2010",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "advanced",
+      "keywords": [
+        "JavaSE",
+        "JavaEE",
+        "Spring Framework",
+        "JVM"
+      ]
+    },
+    {
+      "name": "Other Languages",
+      "level": "intermmediate/beginner",
+      "keywords": [
+        "C",
+        "Ruby",
+        "Groovy"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "intermmediate",
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MVC",
+        "REST"
+      ]
+    },
+    {
+      "name": "InfoSec",
+      "level": "advanced",
+      "keywords": [
+        "Identity Management",
+        "Access Control",
+        "Cryptography",
+        "SSL/TLS",
+        "OAuth",
+        "SAML"
+      ]
+    },
+   {
+      "name": "DevOps",
+      "level": "intermmediate",
+      "keywords": [
+        "Ansible",
+        "Vagrant",
+        "Docker"
+      ]
+    },
+    {
+      "name": "LDAP",
+      "level": "advanced",
+      "keywords": [
+        "OpenDJ",
+        "UnboundID",
+        "OpenDS",
+        "Sun DSEE",
+        "Oracle UID",
+        "Active Directory"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "intermmediate",
+      "keywords": [
+        "MySQL",
+        "Oracle",
+        "MSSQL",
+        "ORM"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "advanced",
+      "keywords": [
+        "Atlassian",
+        "Maven",
+        "Git",
+        "SVN",
+        "Eclipse",
+        "IntelliJ"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Bilingual"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Guillermo's Blog",
+      "website": "http://guillermo-roman.com",
+      "summary": "Rethinking the Internet's identity crisis"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Science and Technology",
+      "keywords": [
+        "Richard Feynman",
+        "Alan Kay",
+        "Hacker News",
+        "The Pragmatic Programmer",
+        "Code Complete"
+      ]
+    },
+    {
+      "name": "Books",
+      "keywords": [
+        "Gore Vidal",
+        "Stephan Zweig",
+        "George R. Martin"
+      ]
+    },
+    {
+      "name": "Movies",
+      "keywords": [
+        "Stanley Kubric",
+        "Paul Thomas Anderson",
+        "Carl Theodor Dreyer"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Soccer",
+        "Golf",
+        "Rugby"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Rishiraj Singh",
+      "reference": "Jane is awesome! I'd hire her again in a heartbeat."
+    },
+    {
+      "name": "Kiran Ramineni",
+      "reference": "Jane is awesome! I'd hire her again in a heartbeat."
+    },
+    {
+      "name": "James Wong",
+      "reference": "Jane is awesome! I'd hire her again in a heartbeat."
+    }
+  ]
+}
