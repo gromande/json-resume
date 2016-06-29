@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Guillermo Roman",
-    "label": "Electrical Engineer. Software Developer",
+    "name": "**Guillermo Roman**",
+    "label": "Identity & Access Management Engineer",
     "picture": "../../assets/picture.png",
     "phone": "1-773-510-2977",
     "email": "guillermo.roman.dearagon@gmail.com",
     "website": "http://guillermo-roman.com",
-    "summary": "**Software Developer with over 5 years of experience specializing in Java, Identity, Access Control, and scalable IT Systems.** Passionate, self-motivated, quick learner, interested in elegant technology that can solve real-world problems. Guillermo loves spending time exploring the world, playing soccer, and having picnics at the lake shore (weather permitting)",
+    "summary": "**At the intersection of Software Development and Information Security.** IAM Engineer with over 5 years of experience specializing in Java, Identity, Access Control, and scalable IT Systems. Passionate, self-motivated, quick learner, interested in elegant technology that can solve real-world problems.",
     "location": {
       "address": "655 W Irving Park  Rd. Unit# 817",
       "postalCode": "60613",
@@ -16,14 +16,13 @@
     },
     "profiles": [
       {
+        "network": "Blog",
+        "url": "http://guillermo-roman.com"
+      },
+      {
         "network": "GitHub",
         "username": "gromande",
         "url": "https://github.com/gromande"
-      },
-      {
-        "network": "Twitter",
-        "username": "GuilleRoman",
-        "url": "https://twitter.com/GuilleRoman"
       },
       {
         "network": "StackOverflow",
@@ -35,61 +34,60 @@
   "work": [
     {
       "company": "Indigo Consulting",
-      "position": "I&AM Architect",
+      "position": "IAM Architect",
       "website": "http://www.indigoconsulting.com",
-      "startDate": "2011-10-01",
-      "summary": "Worked as an I&AM consultant for various clients designing and implementing authentication and authorization systems, and performing application integration and security engineering on multiple high availability, fault tolerant infrastructures.",
+      "startDate": "4/4/4",
+      "summary": "Worked as an IAM consultant for various clients designing and implementing IAM systems, and performing application integration on multiple high availability infrastructures.",
       "highlights": [
-        "Lead developer for OpenConnect, a mobile I&AM platform that provides SSO for multiple mobile and web-based apps. Developed the product in over 1 year and implemented open standards such as OAuth2.0, OpenID Connect, and SAML 2.0",
-        "Main maintainer of the company's SVN repository utilized by 10 developers",
-        "Principal code reviewer",
-        "Provided 4-week training course for new employees",
-        "Main administrator for several Unix and Windows systems"
+        "Lead developer for OpenConnect, a mobile IAM platform that provides SSO for mobile apps. Developed the product in over one year and implemented open standards such as OAuth 2.0, OpenID Connect, and SAML 2.0.",
+        "Principal code reviewer.",
+        "Provided 4-week training course for new employees.",
+        "Main administrator for several Unix systems."
       ]
     },
     {
-      "company": "Morningstar",
-      "position": "I&AM Software Developer",
-      "website": "http://www.morningstar.com/",
-      "summary": "Desgined and implemented a centralized Universal Identity Management (UIM) system to provide access control, single-sign on, and user self-service features for over 8 million users.",
+      "company": "Investment Research Company",
+      "position": "IAM Architect",
+      "startDate": "3/3/3",
+      "summary": "Designed and implemented a centralized Universal Identity Management system to provide access control, single-sign on, and user self-service capabilities for over 8 million users.",
       "highlights": [
-        "Developed an LDAP SDK in Java using Google Guice that's currently used by severla internal applications. The SDK can perform ~30K searches per second.",
-        "Developed REST Endpoints that were consumed by an AunglarJS front-end that allowed the company to streamlined the legacy authentication flows",
-        "Automated platform deployment using CI pipeline based on Maven, Stash, Jenkins, RPM, and uDeploy",
-        "Developed several custom authentication modules in Java to enable features such as Multi-Factor Authentication, or Remember Me",
-        "Migrated over 8 million identities in less than 10 hours using a data sycnrhonization pipeline between Microsoft SQL and LDAP"
+        "Developed a high-performance LDAP SDK using Java and Google Guice that allowed multiple applications to use LDAP as their user store.",
+        "Developed several custom authentication modules in Java to enable features such as Multi-Factor Authentication, Adaptive Risk, and Remember Me.",
+        "Automated platform deployment using CI pipeline based on Maven, Stash, Jenkins, RPM, and uDeploy.",
+        "Migrated over 8 million identities in less than 5 hours using a data synchronization pipeline implemented in Groovy between Microsoft SQL and LDAP."
       ]
     },
     {
-      "company": "Verizon",
+      "company": "Education Service Provider",
+      "position": "IAM Engineer",
+      "startDate": "2/2/2",
+      "summary": "Designed and implemented an Identity Gateway based on SAML 2.0. The platform provides integration between third party service providers such as Google Apps, or Office 365 and several school districts for one of the largest states in the country.",
+      "highlights": [
+        "Developed in Java multiple SAML 2.0 plugins to simplify the authentication process for students and teachers.",
+        "Implemented in Javascript a district finder page that allowed students to easily access services provided by their district.",
+        "Built a Cloud Portal using Spring MVC that provided a single entry point for multiple Service Providers based on IDP initiated flows."
+      ]
+    },
+    {
+      "company": "Top 3 US Mobile Carrier",
       "position": "Software Developer",
-      "website": "http://www.verizon.com/",
-      "summary": "Designed and implemented Verizon's access management, single-sign-on, and user management systems that provide services to over 60 million customers.",
+      "startDate": "1/1/1",
+      "summary": "Implemented the company's access management, single-sign-on, and user management systems that provide services to over 60 million customers.",
       "highlights": [
-        "Integrated Oracle's Real-time Risks Analysis Engine into the company's authentication flows. The engine is able to detect suspicious login activity and react in accordance to the level of risk",
-        "Designed a 2-Factor Authentication solution using OTPs delivered via SMS and Email",
-        "Deployed and configured OpenConnect to provide SSO between mobile and web apps for 10 million devices",
-        "Developed User Self-Service backend using Spring MVC that runs on three active datacenters"
-      ]
-    },
-    {
-      "company": "Broome Tioga BOCES",
-      "position": "I&AM Architect",
-      "website": "http://www.btboces.org/",
-      "summary": "Designed and implemented an Identity Gateway based on SAML 2.0. The platform provides integration between third party service providers such as Google Apps, or Office 365 and several New York State school districts",
-      "highlights": [
-        "Developed in Java multiple SAML 2.0 plugings to simplify the authentication process for students and teachers",
-        "Implemented in Javascript a district finder page that allowed students to easily access services provided by their district"
+        "Integrated Oracle's Adaptive Access Manager into the company's authentication flows which dramatically decreased fraudulent logins",
+        "Built a 2-Factor Authentication solution using OTPs delivered via SMS and Email.",
+        "Deployed and configured OpenConnect to provide SSO between mobile and web apps for 10 million mobile devices.",
+        "Developed User Management backend using Spring MVC."
       ]
     }
   ],
   "education": [
     {
       "institution": "Illinois Institute of Technology",
-      "area": "Electrical Enginnering",
+      "area": "Electrical Engineering",
       "studyType": "Masters of Science",
-      "startDate": "2010-08-15",
-      "endDate": "2011-07-15",
+      "startDate": "08/15/2010",
+      "endDate": "07/15/2011",
       "gpa": "4.0",
       "courses": []
     },
@@ -97,7 +95,7 @@
       "institution": "Madrid University of Technology",
       "area": "Telecommunications Engineering",
       "studyType": "Bachelors and Masters of Science",
-      "startDate": "2006-09-01",
+      "startDate": "09/01/2006",
       "endDate": "09/01/2010",
       "courses": []
     }
@@ -115,22 +113,12 @@
     },
     {
       "name": "Other Languages",
-      "level": "intermmediate/beginner",
+      "level": "intermediate/beginner",
       "keywords": [
         "C",
         "Ruby",
-        "Groovy"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "intermmediate",
-      "keywords": [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "MVC",
-        "REST"
+        "Groovy",
+        "Assembly"
       ]
     },
     {
@@ -142,12 +130,24 @@
         "Cryptography",
         "SSL/TLS",
         "OAuth",
-        "SAML"
+        "SAML",
+        "LDAP"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "intermediate",
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MVC",
+        "REST"
       ]
     },
    {
       "name": "DevOps",
-      "level": "intermmediate",
+      "level": "intermediate",
       "keywords": [
         "Ansible",
         "Vagrant",
@@ -155,30 +155,11 @@
       ]
     },
     {
-      "name": "LDAP",
+      "name": "Tools and OS",
       "level": "advanced",
       "keywords": [
-        "OpenDJ",
-        "UnboundID",
-        "OpenDS",
-        "Sun DSEE",
-        "Oracle UID",
-        "Active Directory"
-      ]
-    },
-    {
-      "name": "Database",
-      "level": "intermmediate",
-      "keywords": [
-        "MySQL",
-        "Oracle",
-        "MSSQL"
-      ]
-    },
-    {
-      "name": "Tools",
-      "level": "advanced",
-      "keywords": [
+        "Unix",
+        "Windows",
         "Atlassian",
         "Maven",
         "Git",
@@ -189,19 +170,18 @@
   ],
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Native"
-    },
-    {
       "language": "English",
       "fluency": "Bilingual"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native"
     }
   ],
   "publications": [
     {
-      "name": "Guillermo's Blog",
-      "website": "http://guillermo-roman.com",
-      "summary": "Rethinking the Internet's identity crisis"
+      "name": "Blog: Rethinking the Internet's Identity Crisis",
+      "website": "http://guillermo-roman.com"
     }
   ],
   "interests": [
@@ -220,7 +200,7 @@
       "keywords": [
         "Gore Vidal",
         "Stephan Zweig",
-        "George R. Martin"
+        "Bill Bryson"
       ]
     },
     {
@@ -242,15 +222,15 @@
   ],
   "references": [
     {
+      "name": "James Wong",
+      "reference": "Guillermo was the expert when it came to integrating 3rd party SSO applications into our system."
+    },
+    {
       "name": "Rishiraj Singh",
-      "reference": "Jane is awesome! I'd hire her again in a heartbeat."
+      "reference": "Guillermo is detail oriented, motivated, and has a tremendous drive to learn new technologies and methodologies."
     },
     {
       "name": "Kiran Ramineni",
-      "reference": "Jane is awesome! I'd hire her again in a heartbeat."
-    },
-    {
-      "name": "James Wong",
       "reference": "Jane is awesome! I'd hire her again in a heartbeat."
     }
   ]
